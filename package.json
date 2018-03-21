@@ -1,7 +1,7 @@
 {
   "name": "yarn-global-links",
   "description": "Get the absolute path to the yarn global links directory (globally symlinked modules).",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/yarn-global-links",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/yarn-global-links",
@@ -20,11 +20,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "yarn-config-directory": "file:/Users/jonschlinkert/dev/path-utils/yarn-config-directory/"
+    "yarn-config-directory": "^1.0.0"
   },
   "devDependencies": {
     "gulp-format-md": "^1.0.0",
-    "mocha": "^5.0.4"
+    "mocha": "^3.5.3"
   },
   "keywords": [
     "global",
