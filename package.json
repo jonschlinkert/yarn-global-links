@@ -1,7 +1,7 @@
 {
   "name": "yarn-global-links",
   "description": "Get the absolute path to the yarn global links directory (globally symlinked modules).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/jonschlinkert/yarn-global-links",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/yarn-global-links",
@@ -27,8 +27,31 @@
     "mocha": "^3.5.3"
   },
   "keywords": [
+    "bin",
+    "binaries",
+    "binary",
+    "conf",
+    "config",
+    "directories",
+    "directory",
+    "dirname",
     "global",
+    "installed",
     "links",
+    "module",
+    "modules",
+    "node",
+    "node-modules",
+    "npm",
+    "npmrc",
+    "package",
+    "packages",
+    "path",
+    "paths",
+    "prefix",
+    "rc",
+    "resolve",
+    "root",
     "yarn"
   ],
   "verb": {
@@ -37,6 +60,14 @@
     "tasks": [
       "readme"
     ],
+    "related": {
+      "list": [
+        "global-modules",
+        "global-prefix",
+        "yarn-config-directory",
+        "yarn-global-modules"
+      ]
+    },
     "plugins": [
       "gulp-format-md"
     ],
